@@ -12,9 +12,6 @@ Du skall skriva en funktion: `count` som tar två heltal (`from:` och `to:`) **s
 	
 	count(from: 1, to: 1)
 	#=> "1"
-
-	count(start: 2, stop: -5)
-	#=> "2,1,0,-1,-2,-3,-4,-5"
 ```
 
 ### Flödesschema ###
@@ -38,7 +35,7 @@ Vad händer om `to:` är minte än `from:`?
 Modifiera er kod så fungerar även om `from:` är mindre än `to:`
 
 ```ruby 
-    count(start: 2, stop: -5)
+    count(from: 2, to: -5)
     #=> "2,1,0,-1,-2,-3,-4,-5"
 ``` 
 
